@@ -1,4 +1,4 @@
-const values = [8,12,16,24,36];
+let values = [8,12,16,24,36];
 const button = document.getElementById('button')
 
 let input = document.getElementById('myRange');
@@ -9,6 +9,7 @@ input.oninput = function(){
 input.oninput();
 
 button.addEventListener('click',function(){
+  values = [8,12,16,24,36]
   if(button.checked=== true){
  for(let i=0;i<values.length;i++){
   values[i]*=12

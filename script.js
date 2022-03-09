@@ -4,7 +4,7 @@ const button = document.getElementById('button')
 let input = document.getElementById('myRange');
   let output = document.getElementById('output');
 input.oninput = function(){
-    output.innerHTML = values[this.value];
+    output.innerHTML = values[this.value].toFixed(2);
 };
 input.oninput();
 

@@ -9,11 +9,15 @@ input.oninput = function(){
 input.oninput();
 
 button.addEventListener('click',function(){
+  if(button.checked=== true){
  for(let i=0;i<values.length;i++){
   values[i]*=12
   let sub = values[i]*0.25
    values[i] = values[i]-sub
    
  }
+} else if(button.checked ===false){
+ 
+}
   input.oninput();
 })

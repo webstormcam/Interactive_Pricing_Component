@@ -10,8 +10,9 @@ input.oninput();
 
 button.addEventListener('click',function(){
  for(let i=0;i<values.length;i++){
-   values[i]*=0.25
-   console.log(values)
+  values[i]*=12
+  let sub = values[i]*0.25
+   values[i] = values[i]-sub
    
  }
   input.oninput();

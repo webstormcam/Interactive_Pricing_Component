@@ -1,10 +1,13 @@
 let values = [8,12,16,24,36];
 const button = document.getElementById('button')
+let view = document.getElementById('views')
+let viewsArray =['10k','50k','100k','500k','1M']
 
 let input = document.getElementById('myRange');
   let output = document.getElementById('output');
 input.oninput = function(){
     output.innerHTML = values[this.value].toFixed(2);
+    view.innerHTML = viewsArray[this.value]
 };
 input.oninput();
 

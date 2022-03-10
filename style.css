@@ -56,6 +56,10 @@ main{
     justify-content: center;
 }
 
+.main-card{
+  position: relative;
+}
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;

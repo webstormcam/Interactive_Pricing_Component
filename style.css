@@ -122,3 +122,83 @@ main{
   .slider.round:before {
     border-radius: 50%;
   }
+
+
+  .ranger {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .ranger:hover {
+    opacity: 1;
+  }
+
+
+
+  .ranger::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: url('imgs/icon-slider.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+  
+  .ranger::-moz-range-thumb {
+    width: 23px;
+    height: 25px;
+    border: 0;
+    background: url('imgs/icon-slider.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+
+  .main-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    min-width: 327px;
+  
+  }
+
+  #views{
+    color: #848EAD;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .dollar{
+    color: #293356;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  #subdate{
+    color: #848EAD;
+    font-size: 1rem;
+    font-weight: lighter;
+   
+  }
+
+  .switcher{
+    position: relative;
+  }

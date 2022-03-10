@@ -1,7 +1,7 @@
 let values = [8,12,16,24,36];
 const button = document.getElementById('button')
 let view = document.getElementById('views')
-let viewsArray =['10k Pageviews','50k Pageviews','100k Pageviews','500k Pageviews','1M Pageviews']
+let viewsArray =['10k PAGEVIEWS','50k PAGEVIEWS','100k PAGEVIEWS','500k PAGEVIEWS','1M PAGEVIEWS']
 let subDate = document.getElementById('subdate')
 
 let input = document.getElementById('myRange');
@@ -21,9 +21,9 @@ button.addEventListener('click',function(){
    values[i] = values[i]-sub
    
  }
- subDate.innerHTML='/Year'
+ subDate.innerHTML='/year'
 } else if(button.checked ===false){
-  subDate.innerHTML='/Month'
+  subDate.innerHTML='/month'
 }
   input.oninput();
 })

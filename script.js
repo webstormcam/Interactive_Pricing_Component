@@ -21,9 +21,9 @@ button.addEventListener('click',function(){
    values[i] = values[i]-sub
    
  }
- subDate.innerHTML='/year'
+ subDate.innerHTML='/ year'
 } else if(button.checked ===false){
-  subDate.innerHTML='/month'
+  subDate.innerHTML='/ month'
 }
   input.oninput();
 })

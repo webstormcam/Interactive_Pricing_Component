@@ -166,6 +166,27 @@ main{
     cursor: pointer;
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
   .main-card{
     display: flex;
     flex-direction: column;
@@ -202,4 +223,27 @@ main{
 
   .switcher{
     position: relative;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  .monthlyBilling{
+    margin-right: 1rem;
+  }
+
+  .yearlyBilling{
+    margin-left: 1rem;
+  }
+
+  .discount{
+    padding: 0.5rem 1rem;
+    color: #ff8D68;
+    font-size: 10px;
+    background-color: #FEEDE8;
+    border-radius: 1rem;
+    position: absolute;
+    right: -5rem;
+    font-weight: bold;
   }

@@ -24,17 +24,20 @@
     <main>
         <section class="main-card">
             <p id="views">Page Views</p>
-            <input type="range" min="0" max="4" value="2" class="ranger" id="myRange" step="1">
-            <p class="dollar">$<span id="output"></span><span id="subdate">/ month</span></p>
-            <div class="switcher">
-                <p class="monthlyBilling bills">Monthly Billing</p>
-                <label class="switch">
-                    <input id="button" type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-                <p class="yearlyBilling bills">Yearly Billing</p>
-                <p class="discount">-25%</p>
-            </div>
+            <form action="#" method="get">
+                <input type="range" min="0" max="4" value="2" class="ranger" id="myRange" step="1">
+                <p class="dollar">$<span id="output"></span><span id="subdate">/ month</span></p>
+                <div class="switcher">
+                    <p class="monthlyBilling bills">Monthly Billing</p>
+                    <label class="switch">
+                        <input id="button" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p class="yearlyBilling bills">Yearly Billing</p>
+                    <p class="discount">-25%</p>
+
+                </div>
+            </form>
         </section>
     </main>
     <script src="script.js"></script>

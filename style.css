@@ -259,42 +259,8 @@ top: 15rem;
     font-weight: bold;
   }
 
-  @media screen and (-webkit-min-device-pixel-ratio:0) {
-    input[type='range'] {
-     
-    
-      -webkit-appearance: none;
-      background-color: #9a905d;
-    }
   
 
-  
-    
-    input[type='range']::-webkit-slider-thumb {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: #10D8C4;
-      background-image: url('imgs/icon-slider.svg');
-      background-size:22px;
-      cursor:pointer;
-      z-index: 99;
-    }
-
-    input[type='range']::-webkit-slider-runnable-track {
-     
-      -webkit-appearance: none;
-      color: #13bba4;
-      margin-top: -1px;
-    }
-
-  
-  input[type="range"]::-ms-fill-upper {  
-    background-color: red;
-  }
-}
 
   form{
     display: flex;

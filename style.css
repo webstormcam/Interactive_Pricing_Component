@@ -297,7 +297,9 @@ top: 15rem;
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background: #04AA6D;
+      background-color: #04AA6D;
+      background-image: url('imgs/icon-slider.svg');
+      background-size:25px;
       cursor: pointer;
       z-index: 99;
     }
@@ -306,7 +308,7 @@ top: 15rem;
       width: 25px;
       height: 25px;
       border-radius: 50%;
-      background: #04AA6D;
+      background-color: #04AA6D;
       cursor: pointer;
     }
 

@@ -297,9 +297,9 @@ top: 15rem;
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: #04AA6D;
+      background-color: #10D8C4;
       background-image: url('imgs/icon-slider.svg');
-      background-size:25px;
+      background-size:22px;
       cursor: pointer;
       z-index: 99;
     }

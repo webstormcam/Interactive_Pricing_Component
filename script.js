@@ -30,5 +30,13 @@ button.addEventListener('click',function(){
   input.oninput();
 })
 
+input.addEventListener('mousedown',function(){
+  input.style.cursor ='grabbing'
+})
+
+input.addEventListener('mouseup',function(){
+  input.style.cursor='grab'
+})
+
 
 

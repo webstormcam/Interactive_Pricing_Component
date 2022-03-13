@@ -312,6 +312,19 @@ top: 15rem;
     margin-bottom: 1rem;
   }
 
+   button{
+     color: #BECDFF;
+     background-color: #293356;
+     font-weight: bold;
+     padding: 1rem 3rem;
+     border-radius: 2rem;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     font-size: 12px;
+     outline: none;
+     border: none;
+   }
+
 
    
     

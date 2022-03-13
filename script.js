@@ -9,6 +9,8 @@ let input = document.getElementById('myRange');
 input.oninput = function(){
     output.innerHTML = values[this.value].toFixed(2);
     view.innerHTML = viewsArray[this.value]
+    var value = (this.value-this.min)/(this.max-this.min)*100
+  this.style.background = 'linear-gradient(to right, #82CFD0 0%, #82CFD0 ' + value + '%, #fff ' + value + '%, white 100%)'
 };
 input.oninput();
 
@@ -27,3 +29,6 @@ button.addEventListener('click',function(){
 }
   input.oninput();
 })
+
+
+

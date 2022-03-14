@@ -336,6 +336,40 @@ top: 15rem;
     display: none;
   }
 
+
+
+
+/** FF*/
+input[type="range"]::-moz-range-track {
+  -webkit-appearance: none;
+  color: #13bba4;
+  margin-top: -1px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #10D8C4;
+  background-image: url('imgs/icon-slider.svg');
+  background-repeat: no-repeat;
+  background-size:20px;
+  background-position: center;
+  
+  z-index: 99;
+}
+
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #43e5f7; 
+}
+input[type="range"]::-ms-fill-upper {  
+  background-color: #9a905d;
+}
+
+
    
 
    @media screen and (min-width:768px) {

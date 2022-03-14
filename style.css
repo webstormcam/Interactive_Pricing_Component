@@ -327,6 +327,24 @@ top: 15rem;
      cursor: pointer;
    }
 
+   @media screen and (min-width:768px) {
+     h1{
+       font-size: 28px;
+     }
+
+     .top-words{
+       font-size: 15px;
+     }
+
+     br{
+       display: none;
+     }
+
+     .main-card{
+       min-width: 540px;
+     }
+   }
+
 
    
     

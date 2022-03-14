@@ -178,6 +178,7 @@ top: 15rem;
     display: flex;
     align-items: center;
     margin-top: 2.5rem;
+    display: block;
   }
 
   #subdate{
@@ -327,6 +328,12 @@ top: 15rem;
      cursor: pointer;
    }
 
+   .dollar_desktop{
+     display: none;
+   }
+
+   
+
    @media screen and (min-width:768px) {
      h1{
        font-size: 28px;
@@ -342,6 +349,33 @@ top: 15rem;
 
      .main-card{
        min-width: 540px;
+     }
+
+     .dollar_desktop{
+      display: block;
+      font-size: 40px;
+      font-weight: bold;
+      position: relative;
+      top: 0.5rem;
+
+    }
+
+    #views{
+      font-size: 14px;
+    }
+    
+     .views_with_num{
+       display: flex;
+       flex-direction: row;
+       align-items: baseline;
+       justify-content: space-between;
+       width: 100%;
+       padding: 0rem 3rem;
+       margin-top: 2rem;
+     }
+
+     .dollar{
+       display: none;
      }
    }
 

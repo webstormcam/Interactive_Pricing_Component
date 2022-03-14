@@ -404,6 +404,18 @@ top: 15rem;
   display: none;
 }
 
+.words_submit{
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding:2rem 2rem;
+}
+
+ul{
+  align-items: flex-start;
+}
+
+
    }
 
 
